@@ -42,3 +42,9 @@ HTML Syntax:
 
 HTML Superscripts, Subscripts and Small Text:
 20) This is usually used for when you need to display a math sign like for e.g. 5 to the power of 8
+
+21) The "dir" attribute solely indicates the direction in which the text flows, using "LTR" which means left-to-right scripts and "RTL" means right-to-left scripts. These attributes, "lang" and "dir," are considered Global Attributes and can be used on any HTML element.
+
+22) ARIA Accessible Rich Internet Applications (ARIA) is a set of roles and attributes that define ways to make web content and web applications (especially those developed with JavaScript) more accessible to people with disabilities.
+
+23) When there's a URL like http://www.awesomedogs.com/people, it is actually looking for a file called index.html inside the folder called people. In web development, when a browser is given a URL that points to a folder, it automatically looks for an index.html file and loads it. 
