@@ -48,3 +48,13 @@ HTML Superscripts, Subscripts and Small Text:
 22) ARIA Accessible Rich Internet Applications (ARIA) is a set of roles and attributes that define ways to make web content and web applications (especially those developed with JavaScript) more accessible to people with disabilities.
 
 23) When there's a URL like http://www.awesomedogs.com/people, it is actually looking for a file called index.html inside the folder called people. In web development, when a browser is given a URL that points to a folder, it automatically looks for an index.html file and loads it. 
+
+24) There are four attributes that need to be accompanied with every image: The First one, we have the source attribute (SRC), this tells the browser which image file to load. 
+Then we have the alt attribute (ALT), this one provides a text description of the image. Lastly, we have the width and height attributes, which determine the size of the image. So, every image should have all four of these attributes.
+
+25) GIFs are great for compressing short illustrations but it falls short when it comes to photography and it only supports 256 colors. SVGs are perfect for logos, icons and other illustrations and unlike GIFs, SVGs are vector files that contain instructions for drawing rather than having individual pixels. This means that it can be scaled to any size and not lose image quality and the file size will also relatively remain small.
+
+26) JPG are one of the most popular image formats, as digital cameras default to having their images to JPG. But when uploaded on the internet it needs to be compressed and resized in order to keep the images original quality.
+
+27) PNG is a newer format that works well when you need transparency in a photograph. PNG can sometimes outperform both GIF and JPG in compressing certain types of images. When manually compressing files, try different options to find the smallest file size.
+28) 
