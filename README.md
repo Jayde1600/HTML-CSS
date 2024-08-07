@@ -57,4 +57,11 @@ Then we have the alt attribute (ALT), this one provides a text description of th
 26) JPG are one of the most popular image formats, as digital cameras default to having their images to JPG. But when uploaded on the internet it needs to be compressed and resized in order to keep the images original quality.
 
 27) PNG is a newer format that works well when you need transparency in a photograph. PNG can sometimes outperform both GIF and JPG in compressing certain types of images. When manually compressing files, try different options to find the smallest file size.
-28) 
+28) Audio code: <audio controls src=""></audio> There are other attributes that can be used with the audio element too. For example, "loop" will make the file repeat from the beginning once it reaches the end. "Autoplay" can automatically play the audio as soon as the page loads. 
+29) MP3s are widely supported in modern browsers, while OGG had some advantages but did not gain much popularity. There is also AV1 video file format, but not widely available yet.
+30) Video code: <video controls><source src=""></source> For this example, a video file has been created with 480p resolution, compressed using the H.264 codec, and delivered as an MP4 file. 480p means the video has 480 lines of resolution and is 720 pixels wide by 400 pixels tall. It is not HD or 4K, just standard quality. The H.264 codec was chosen because it is widely supported by browsers.
+
+31) PNG, JPEG, GIF, or SVG, there are different codecs that can be used to encode video files. Video files contain a lot of data, and if not compressed, they become too large to be efficiently transmitted over the internet.
+32) There have been various codecs developed over the years, such as Real Video, Sorenson, Windows Media, Flash, and H.263. From 2015 to 2020, H.264 was the dominant codec that most people used, the problem is that it is not open source so every platform, device, system that uses H.264 get's charged for using it.
+
+33) For video subtitles: 
