@@ -57,11 +57,14 @@ Then we have the alt attribute (ALT), this one provides a text description of th
 26) JPG are one of the most popular image formats, as digital cameras default to having their images to JPG. But when uploaded on the internet it needs to be compressed and resized in order to keep the images original quality.
 
 27) PNG is a newer format that works well when you need transparency in a photograph. PNG can sometimes outperform both GIF and JPG in compressing certain types of images. When manually compressing files, try different options to find the smallest file size.
-28) Audio code: <audio controls src=""></audio> There are other attributes that can be used with the audio element too. For example, "loop" will make the file repeat from the beginning once it reaches the end. "Autoplay" can automatically play the audio as soon as the page loads. 
+28) Audio code: <audio controls src=""></audio> There are other attributes that can be used with the audio element too. For example, "loop" will make the file repeat from the beginning once it reaches the end. "Autoplay" can automatically play the audio as soon as the page loads. In detail audio code: <audio controls src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/birds.mp3"></audio>
+
 29) MP3s are widely supported in modern browsers, while OGG had some advantages but did not gain much popularity. There is also AV1 video file format, but not widely available yet.
 30) Video code: <video controls><source src=""></source> For this example, a video file has been created with 480p resolution, compressed using the H.264 codec, and delivered as an MP4 file. 480p means the video has 480 lines of resolution and is 720 pixels wide by 400 pixels tall. It is not HD or 4K, just standard quality. The H.264 codec was chosen because it is widely supported by browsers.
 
 31) PNG, JPEG, GIF, or SVG, there are different codecs that can be used to encode video files. Video files contain a lot of data, and if not compressed, they become too large to be efficiently transmitted over the internet.
 32) There have been various codecs developed over the years, such as Real Video, Sorenson, Windows Media, Flash, and H.263. From 2015 to 2020, H.264 was the dominant codec that most people used, the problem is that it is not open source so every platform, device, system that uses H.264 get's charged for using it.
 
-33) For video subtitles: 
+33) Answers: 1. How do you create a video element that specifies different resolutions of video that browsers can choose from when loading the video? You can't do this. Instead, the browser adapts to circumstances as needed. 2. What should you do to create an audio player with controls? Use the audio element with the controls attribute set to yes. 3. What is the drawback of using the HTML video player shown in the image below? It does not permit adaptive bitrate streaming. 4. You can add chapter divisions to videos by _____. referencing a VTT file listing chapters
+
+34) HTML Content Identification: The lang attribute is used to specify the language of a webpage. If the whole page is in one language, it is quite simple. Set the language on the main element that wraps everything else, which is usually the HTML element. It may only be required to set it once,
