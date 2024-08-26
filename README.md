@@ -96,3 +96,5 @@ The footer signifies that there are extra things to convey, regardless of its po
 
 48) In the HTML we use the TR element to markup each row. Six pairs of TR opening and closing tags make six rows. Elements of a table: <table> = table (wraps the whole table), <tr> = table row, <td> = table data, <th> = table header
 49) Answers: 1) Why are tables the preferred option for creating layouts in HTML email? Because the other better options are not supported. 2) Which table-specific element typically is most deeply nested in table-specific parent elements? <td> 3) Where can you find the authoritative standard for HTML? The Living Standards
+
+50) In order to comment out text in HTML you must use <!-- Comment here --> and for CSS it's /** Comment Here */
