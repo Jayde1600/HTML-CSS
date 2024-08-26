@@ -98,3 +98,4 @@ The footer signifies that there are extra things to convey, regardless of its po
 49) Answers: 1) Why are tables the preferred option for creating layouts in HTML email? Because the other better options are not supported. 2) Which table-specific element typically is most deeply nested in table-specific parent elements? <td> 3) Where can you find the authoritative standard for HTML? The Living Standards
 
 50) In order to comment out text in HTML you must use <!-- Comment here --> and for CSS it's /** Comment Here */
+51) We use class selectors in order to target a specific section of our code in order to change color, font, and more e.g. "<p class=my_target">Hello</p> 
