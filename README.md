@@ -99,3 +99,7 @@ The footer signifies that there are extra things to convey, regardless of its po
 
 50) In order to comment out text in HTML you must use <!-- Comment here --> and for CSS it's /** Comment Here */
 51) We use class selectors in order to target a specific section of our code in order to change color, font, and more e.g. "<p class=my_target">Hello</p>
+52) There are various image formats, like GIF, PNG, JPEG, bitmap, TIFF, and more proprietary formats like PSD. Traditionally, the web has supported three types of image formats. 
+GIF:  Had limited colors but could include transparency and animation. 
+PNG:  Had more colors and transparency but no animation. GIF and PNG were suitable for illustrations such as logos or cartoons. 
+JPEG:  Stands for Joint Photographic Experts Group, was optimized for photographs and supported millions of colors but lacked transparency and animation.
